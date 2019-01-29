@@ -9,4 +9,179 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url("images/wallpaper_the_background_background_graphics_texture_wallpapers_green_plaster-495332.jpg!d.jpeg");
+}
+
+h1 {
+  margin-top: 1rem;
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+}
+
+.navigation {
+  padding-left: 1%;
+  text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.navigation a {
+  background-color: blue;
+  color: rgb(226, 43, 205);
+  font-weight: 800;
+  font-size: 2vh;
+  display: inline;
+  margin-right: 2em;
+  line-height: 2;
+}
+
+.navigation {
+  margin: 4.6rem 0;
+}
+
+.reviews-header {
+  color: yellow;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  border: 6px dotted yellow;
+  font-size: 2.5rem;
+}
+
+.publications-header {
+  color: red;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  border: 6px dotted red;
+  font-size: 2.5rem;
+}
+
+.sale-header {
+  color: greenyellow;
+  text-decoration: underline;
+  border: 3px solid blue;
+  text-align: center;
+  background-color: black;
+  font-size: 2.5rem;
+}
+
+.reviews p {
+  background-image: linear-gradient(red, yellow);
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: blue;
+  font-weight: 600;
+  padding-left: 3rem;
+}
+
+.reviews h3 {
+  font-size: 1.7rem;
+  border-bottom: 14px solid black;
+  padding-left: 2rem;
+}
+
+.publications p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  /* display: block; */
+  font-weight: bold;
+  padding-left: 1em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+}
+
+.for-sale a {
+  font-family: fantasy;
+}
+
+/* Second PG */
+
+h4 {
+  font-family: "Lucida Console";
+  font-size: 2rem;
+  color: yellow;
+  letter-spacing: 3px;
+}
+
+.facts {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border: 12px black solid;
+  box-shadow: -5px 10px grey;
+}
+
+footer {
+  margin-bottom: 0;
+  bottom: 0px;
+}
+
+/* 5 id selectors */
+
+#one {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+}
+
+#two {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+}
+
+#three {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+}
+
+#four {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+}
+
+#five {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
+}
+
+#one:hover {
+  font-size: 2.5em;
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+#two:hover {
+  font-size: 2.5em;
+  color: SeaShell;
+  font-weight: bold;
+}
+
+#three:hover {
+  font-size: 2.5em;
+  color: SaddleBrown;
+  font-weight: bold;
+}
+
+#four:hover {
+  font-size: 2.5em;
+  color: Maroon;
+  font-weight: bold;
+}
+
+#five:hover {
+  font-size: 2.5em;
+  color: OrangeRed;
+  font-weight: bold;
+}
+
+.for-sale {
+  margin-bottom: 2em;
 }
